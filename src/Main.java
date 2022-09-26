@@ -35,7 +35,7 @@ public class Main {
         System.out.println("What is your favorite movie?");
         String favMovie = INPUT.nextLine();
 
-        while( !favMovie.toLowerCase().equals("everything, everywhere, all at once")){
+        while( !favMovie.equalsIgnoreCase("everything, everywhere, all at once")){
 
             System.out.println("That's not the correct answer. Please try again.");
             favMovie = INPUT.nextLine();
